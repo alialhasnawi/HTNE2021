@@ -9,19 +9,60 @@
   </head>
 
   <body>
-    <div class="logo">
-      <img class="logo-img" src="res/logo.gif" alt="Logo">
-    </div>
-    <div class="welcome">
-      <div class="message">
-        Woman you cute and you don't need no make up
-        Original cute body, you a mek man mud up
-        Woman physically fit, physically fit
+
+    <div id="background"></div>
+
+    <div id="scrolling-element">
+
+      <div class="slide" id="slide-welcome">
+
+        <div class="logo">
+          <img class="logo-img" src="res/logo.gif" alt="Logo">
+        </div>
+        <div class="pretty-container" id="welcome">
+          <div class="message initial">
+            Please click begin, and then scroll to start your quiz
+          </div>
+          <div class="button" onclick="start_quiz();">
+            Begin
+          </div>
+        </div>
+
       </div>
-      <div class="start-button">
-        Begin
+
+      <div class="slide" id="slide-testing">
+
+        <div class="logo">
+          <img class="logo-img" src="res/logo.gif" alt="Logo">
+        </div>
+        <div class="pretty-container" id="welcome">
+          <div class="message">
+            Question 1.
+          </div>
+          <div class="button answer" onclick="start_quiz()">
+            A.
+          </div>
+          <div class="button answer" onclick="start_quiz()">
+            B.
+          </div>
+          <div class="button answer" onclick="start_quiz()">
+            C.
+          </div>
+          <div class="button answer" onclick="start_quiz()">
+            D.
+          </div>
+        </div>
+
       </div>
+
     </div>
+
+    </div>
+
+
+
+
+
   </body>
 
   <script src="script.js" charset="utf-8"></script>
