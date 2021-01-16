@@ -159,7 +159,7 @@ function start_quiz() {
 
 // array: arr[index]  object:   obj.property
 function answer(question_number, given_answer) {
-  scrolling_element.style.transitionDelay = '0s';
+  scrolling_element.style.transitionDelay = '1.5s';
   if (given_answer == questions_list[question_number].answer) {
     score++;
   }
